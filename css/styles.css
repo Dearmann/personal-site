@@ -1,0 +1,31 @@
+/* #222831 #393E46 #00ADB5 #EEEEEE */
+
+body {
+    background-color: #393E46;
+    color: #EEEEEE;
+}
+
+h1 {
+    color: #00ADB5;
+}
+
+h3 {
+    color: #00ADB5
+}
+
+hr {
+    border-style: dotted none none none;
+    /* width: 10%; */
+    border-width: 5px;
+    border-color: #EEEEEE;
+}
+
+.profile-picture {
+    object-fit: cover;
+    border-radius: 30%;
+  }
+
+.img-link {
+    height: 30px;
+    padding-inline: 3px;
+}
