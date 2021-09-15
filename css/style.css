@@ -5,6 +5,11 @@ a {
     color: #44dae2;
 }
 
+a:hover {
+    /* transform: scale(1.05); */
+    color: #94e1e6;
+}
+
 body {
     background-color: #222831;
     color: #EEEEEE;
@@ -30,28 +35,19 @@ hr {
 
 .name {
     margin-top: 30px;
+    font-family: 'Sacramento', cursive;
+    font-size: 35px;
 }
 
-.skills {
-    background-color: #393E46;
-    border-radius: 20%;
-    margin: 30px auto 30px auto;
-    padding: 10px;
-}
-
-.skills-left {
-    width: 300px;
-}
-
-.skills-right {
-    width: 300px;
+.intro {
+    font-family: 'Merriweather', serif;
 }
 
 .timeline {
     background-color: #393E46;
     border-radius: 50%;
     display: inline-block;
-    margin: 20px;
+    margin: 5px;
     padding: 10px;
     position: relative;
 }
@@ -70,16 +66,32 @@ hr {
     height: 50px;
 }
 
+.skills {
+    background-color: #393E46;
+    border-radius: 20%;
+    margin: 15px auto 15px auto;
+    padding: 10px;
+}
+
+.skills-left {
+    width: 300px;
+}
+
+.skills-right {
+    width: 300px;
+}
+
 .contact {
     background-color: #393E46;
     border-radius: 40%;
     display: inline-block;
     margin: 5px 0 0 0;
     padding: 15px;
+    font-family: 'Merriweather', serif;
 }
 
 .img-link {
-    height: 30px;
+    height: 35px;
     margin: 0 8px 0 8px;
 }
 
