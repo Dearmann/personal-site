@@ -1,0 +1,47 @@
+/* Design colors: #222831 #393E46 #00ADB5 #EEEEEE */
+
+/***************TAG SELECTORS***************/
+a {
+    color: #44dae2;
+}
+
+body {
+    background-color: #222831;
+    color: #EEEEEE;
+    text-align: center;
+}
+
+h1 {
+    color: #00ADB5;
+}
+
+h3 {
+    color: #00ADB5
+}
+
+hr {
+    border-style: dotted none none none;
+    /* width: 10%; */
+    border-width: 5px;
+    border-color: #EEEEEE;
+}
+
+/***************CLASS SELECTORS***************/
+.img-link {
+    height: 30px;
+    margin: 0 6px 0 0px;
+}
+
+.skills {
+    margin: auto;
+}
+
+.skills-left {
+    width: 300px;
+}
+
+.skills-right {
+    width: 300px;
+}
+
+/***************ID SELECTORS***************/
