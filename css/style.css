@@ -33,7 +33,7 @@ hr {
 }
 
 .skills {
-    margin: auto;
+    margin: 0 auto 30px auto;
 }
 
 .skills-left {
@@ -42,6 +42,28 @@ hr {
 
 .skills-right {
     width: 300px;
+}
+
+.timeline {
+    background-color: #393E46;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 30px;
+    position: relative;
+}
+
+.timeline-title {
+    display: inline-block;
+    margin: 20px;
+    width: 300px;
+    height: 50px;
+}
+
+.timeline-description {
+    display: inline-block;
+    margin: 20px;
+    width: 300px;
+    height: 50px;
 }
 
 /***************ID SELECTORS***************/
