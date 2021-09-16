@@ -36,11 +36,14 @@ hr {
 .name {
     margin-top: 30px;
     font-family: 'Sacramento', cursive;
-    font-size: 35px;
+    font-size: 3.3rem;
+    margin-bottom: 0;
 }
 
 .intro {
     font-family: 'Merriweather', serif;
+    font-size: 0.9rem;
+    margin-bottom: 5px;
 }
 
 .timeline {
