@@ -25,11 +25,11 @@ h3 {
 }
 
 hr {
-    border-color: #EEEEEE;
-    border-style: dotted none none none;
-    border-width: 5px;
-    margin: 20px auto;
-    width: 35%;
+    /* border-color: #EEEEEE; */
+    border-style: none none none none;
+    /* border-width: 5px; */
+    margin: 40px auto;
+    /* width: 35%; */
 }
 
 /***************CLASS SELECTORS***************/
@@ -50,7 +50,7 @@ hr {
     background-color: #393E46;
     border-radius: 50%;
     display: inline-block;
-    padding: 20px;
+    padding: 40px;
     position: relative;
 }
 
@@ -75,15 +75,39 @@ hr {
     height: 155px;
 }
 
+.project-img-left {
+    border-radius: 100%;
+    float: left;
+    margin-right: 20px;
+    height: 155px;
+    width: 155px;
+}
+
+.project-img-left:hover {
+    transform: scale(1.05);
+}
+
+.project-img-right {
+    border-radius: 100%;
+    float: right;
+    margin-left: 20px;
+    height: 155px;
+    width: 155px;
+}
+
+.project-img-right:hover {
+    transform: scale(1.05);
+}
+
 .projects-description {
     margin: auto;
 }
 
 .skills {
     background-color: #393E46;
-    border-radius: 20%;
+    border-radius: 30%;
     margin: auto;
-    padding: 10px;
+    padding: 30px;
 }
 
 .skills-left {
@@ -96,9 +120,9 @@ hr {
 
 .contact {
     background-color: #393E46;
-    border-radius: 40%;
+    border-radius: 50%;
     display: inline-block;
-    padding: 15px;
+    padding: 25px;
     font-family: 'Merriweather', serif;
 }
 
@@ -112,18 +136,8 @@ hr {
     margin: 0 8px 0 8px;
 }
 
+.img-link:hover {
+    transform: scale(1.1);
+}
+
 /***************ID SELECTORS***************/
-
-#angryblocks-img {
-    border-radius: 100%;
-    float: left;
-    height: 155px;
-    width: 155px;
-}
-
-#chess-img {
-    border-radius: 100%;
-    float: right;
-    height: 155px;
-    width: 155px;
-}
