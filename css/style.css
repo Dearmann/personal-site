@@ -3,16 +3,18 @@
 /***************TAG SELECTORS***************/
 a {
     color: #44dae2;
+    text-decoration: none;
 }
 
 a:hover {
     /* transform: scale(1.05); */
-    color: #94e1e6;
+    color: #a5e1e6;
 }
 
 body {
     background-color: #222831;
     color: #EEEEEE;
+    font-family: 'Merriweather', serif;
     text-align: center;
 }
 
@@ -36,51 +38,65 @@ hr {
 
 .name {
     font-family: 'Sacramento', cursive;
-    font-size: 3.3rem;
-    margin-bottom: 0;
+    font-size: 4rem;
+    margin: 60px auto 0px;
 }
 
 .intro {
     font-family: 'Merriweather', serif;
     font-size: 0.9rem;
-    margin-bottom: 30px;
+    line-height: 2;
+    margin: 10px auto 0px;
+    width: 440px;
 }
 
 .timeline {
     background-color: #393E46;
-    border-radius: 50%;
-    display: inline-block;
-    padding: 40px;
-    position: relative;
+    border-radius: 20%;
+    display: block;
+    margin: 50px auto;
+    width: 50%;
+}
+
+.timeline-entry {
+    height: 200px;
+    display: table;
 }
 
 .timeline-title {
-    display: inline-block;
-    height: 50px;
-    width: 300px;
+    display: table-cell;
+    height: 200px;
+    width: 50%;
+    vertical-align: middle;
+}
+
+.timeline-time {
+    display: block;
 }
 
 .timeline-description {
-    display: inline-block;
-    height: 50px;
-    width: 300px;
+    display: table-cell;
+    height: 200px;
+    width: 50%;
+    vertical-align: middle;
 }
 
 .projects {
     margin: auto;
-    width: 35%;
+    width: 50%;
 }
 
 .projects-entry {
-    height: 155px;
+    height: 200px;
+    margin: 80px auto;
 }
 
 .project-img-left {
     border-radius: 100%;
     float: left;
     margin-right: 20px;
-    height: 155px;
-    width: 155px;
+    height: 200px;
+    width: 200px;
 }
 
 .project-img-left:hover {
@@ -91,8 +107,8 @@ hr {
     border-radius: 100%;
     float: right;
     margin-left: 20px;
-    height: 155px;
-    width: 155px;
+    height: 200px;
+    width: 200px;
 }
 
 .project-img-right:hover {
@@ -101,27 +117,35 @@ hr {
 
 .projects-description {
     margin: auto;
+    line-height: 2;
 }
 
 .skills {
     background-color: #393E46;
     border-radius: 30%;
+
+    font-family: serif;
+
     margin: auto;
     padding: 30px;
+    /* width: 50%; */
 }
 
 .skills-left {
     width: 300px;
+    /* width: 50%; */
 }
 
 .skills-right {
     width: 300px;
+    /* width: 50%; */
 }
 
 .contact {
     background-color: #393E46;
     border-radius: 50%;
     display: inline-block;
+    margin-bottom: 30px;
     padding: 25px;
     font-family: 'Merriweather', serif;
 }
