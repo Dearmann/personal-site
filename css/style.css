@@ -22,46 +22,40 @@ h1, h2, h3, h4, h5, h6 {
     color: #00ADB5;
 }
 
-hr {
-    /* border-color: #EEEEEE; */
-    border-style: none none none none;
-    /* border-width: 5px; */
-    margin: 40px auto;
-    /* width: 35%; */
+/***************CLASS/ID SELECTORS***************/
+.intro {
+    /* margin: 14% auto 17%; */
+    margin: 5% auto 7%;
 }
 
-/***************CLASS/ID SELECTORS***************/
 .name {
     font-family: 'Sacramento', cursive;
-    font-size: 4rem;
-    margin: 60px auto 0px;
+    font-size: 5rem;
+    margin-bottom: 3%;
 }
 
-.intro {
-    font-size: 0.9rem;
+.bio {
+    font-size: 1.2rem;
     line-height: 2;
     margin: 10px auto 0px;
-    width: 440px;
+    width: 30%;
 }
 
 .timeline {
     background-color: #393E46;
     border-radius: 100%;
-    display: block;
-    margin: 50px auto;
-    width: 50%;
+    margin: 7% 20%;
 }
 
 .timeline-entry {
-    height: 250px;
+    /* height: 250px; */
     display: table;
+    padding: 7%;
 }
 
 .timeline-title {
     display: table-cell;
-    height: 250px;
     width: 50%;
-    padding: 0 80px;
     vertical-align: middle;
 }
 
@@ -71,21 +65,17 @@ hr {
 
 .timeline-description {
     display: table-cell;
-    height: 250px;
     width: 50%;
-    padding: 0 80px;
     vertical-align: middle;
     /* border-left: solid #222831ab 1px; */
 }
 
 .projects {
-    margin: auto;
-    width: 50%;
+    margin: 7% 20%;
 }
 
 .project-entry {
-    height: 200px;
-    margin: 80px auto;
+    padding: 2% 6%;
 }
 
 .project-img-left {
@@ -96,7 +86,7 @@ hr {
     width: 200px;
 }
 
-.project-img-left:hover {
+.project-img-left:hover, .project-img-right:hover {
     transform: scale(1.05);
 }
 
@@ -108,12 +98,7 @@ hr {
     width: 200px;
 }
 
-.project-img-right:hover {
-    transform: scale(1.05);
-}
-
 .project-description {
-    margin: auto;
     line-height: 2;
 }
 
@@ -121,8 +106,8 @@ hr {
     background-color: #393E46;
     border-radius: 100%;
     display: inline-block;
-    margin-bottom: 30px;
-    padding: 25px;
+    padding: 30px;
+    margin-bottom: 2%;
 }
 
 .email {
