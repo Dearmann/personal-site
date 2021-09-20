@@ -18,12 +18,8 @@ body {
     text-align: center;
 }
 
-h1 {
+h1, h2, h3, h4, h5, h6 {
     color: #00ADB5;
-}
-
-h3 {
-    color: #00ADB5
 }
 
 hr {
@@ -34,8 +30,7 @@ hr {
     /* width: 35%; */
 }
 
-/***************CLASS SELECTORS***************/
-
+/***************CLASS/ID SELECTORS***************/
 .name {
     font-family: 'Sacramento', cursive;
     font-size: 4rem;
@@ -43,7 +38,6 @@ hr {
 }
 
 .intro {
-    font-family: 'Merriweather', serif;
     font-size: 0.9rem;
     line-height: 2;
     margin: 10px auto 0px;
@@ -81,6 +75,7 @@ hr {
     width: 50%;
     padding: 0 80px;
     vertical-align: middle;
+    /* border-left: solid #222831ab 1px; */
 }
 
 .projects {
@@ -88,7 +83,7 @@ hr {
     width: 50%;
 }
 
-.projects-entry {
+.project-entry {
     height: 200px;
     margin: 80px auto;
 }
@@ -117,7 +112,7 @@ hr {
     transform: scale(1.05);
 }
 
-.projects-description {
+.project-description {
     margin: auto;
     line-height: 2;
 }
@@ -128,7 +123,6 @@ hr {
     display: inline-block;
     margin-bottom: 30px;
     padding: 25px;
-    font-family: 'Merriweather', serif;
 }
 
 .email {
@@ -144,5 +138,3 @@ hr {
 .img-link:hover {
     transform: scale(1.1);
 }
-
-/***************ID SELECTORS***************/
