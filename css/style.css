@@ -84,6 +84,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-right: 20px;
     height: 200px;
     width: 200px;
+    margin-top: 3%;
 }
 
 .project-img-left:hover, .project-img-right:hover {
@@ -96,6 +97,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-left: 20px;
     height: 200px;
     width: 200px;
+    margin-top: 3%;
 }
 
 .project-description {
