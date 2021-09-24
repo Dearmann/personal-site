@@ -47,13 +47,14 @@ h1, h2, h3, h4, h5, h6 {
 
 .timeline {
     background-color: #393E46;
-    border-radius: 100%;
+    border-radius: 25%;
     margin: 30vh 23%;
 }
 
 .timeline-entry {
     /* height: 250px; */
     display: table;
+    margin: auto;
     padding: 6%;
 }
 
@@ -88,8 +89,14 @@ h1, h2, h3, h4, h5, h6 {
     margin: 30vh 20%;
 }
 
-.project-entry {
-    margin: 10% 9%;
+.project-entry-left {
+    text-align: left;
+    margin: 10% 8%;
+}
+
+.project-entry-right {
+    text-align: right;
+    margin: 10% 8%;
 }
 
 /* .project-title {
@@ -98,34 +105,33 @@ h1, h2, h3, h4, h5, h6 {
 
 .project-description {
     line-height: 2;
-    margin: 3%;
+    margin-top: 1%;
 }
 
-.project-img-left {
+.project-img {
     border-radius: 100%;
+    height: 230px;
+    width: 230px;
+    /* margin-top: 3%; */
+}
+
+.project-img:hover {
+    transform: scale(1.05);
+}
+
+.project-entry-left .project-img {
     float: left;
     margin-right: 20px;
-    height: 200px;
-    width: 200px;
-    /* margin-top: 3%; */
 }
 
-.project-img-right {
-    border-radius: 100%;
+.project-entry-right .project-img {
     float: right;
     margin-left: 20px;
-    height: 200px;
-    width: 200px;
-    /* margin-top: 3%; */
-}
-
-.project-img-left:hover, .project-img-right:hover {
-    transform: scale(1.05);
 }
 
 .contact {
     background-color: #393E46;
-    border-radius: 100%;
+    border-radius: 25%;
     display: inline-block;
     padding: 30px;
     margin-bottom: 2%;
