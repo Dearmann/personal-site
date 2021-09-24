@@ -3,6 +3,7 @@
 /***************TAG SELECTORS***************/
 a {
     color: #44dae2;
+    /* color: #00ADB5; */
     text-decoration: none;
 }
 
@@ -14,26 +15,27 @@ a:hover {
 body {
     background-color: #222831;
     color: #EEEEEE;
-    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
     color: #00ADB5;
-    font-weight: bold;
+    font-weight: 700;
 }
 
 /***************CLASS/ID SELECTORS***************/
 .intro {
     /* margin: 14% auto 17%; */
-    margin: 5% auto 7%;
+    margin: 30vh auto 35vh;
 }
 
 .name {
-    font-family: 'Sacramento';
+    /* font-family: 'Sacramento'; */
+    /* font-family: 'Montserrat', sans-serif; */
     font-size: 5.5rem;
-    font-weight: 500;
-    margin-bottom: 3%;
+    font-weight: 300;
+    margin-bottom: 4%;
 }
 
 .bio {
@@ -46,13 +48,13 @@ h1, h2, h3, h4, h5, h6 {
 .timeline {
     background-color: #393E46;
     border-radius: 100%;
-    margin: 9% 23%;
+    margin: 30vh 23%;
 }
 
 .timeline-entry {
     /* height: 250px; */
     display: table;
-    padding: 7%;
+    padding: 6%;
 }
 
 .timeline-entry h3, h4, h5 {
@@ -63,28 +65,31 @@ h1, h2, h3, h4, h5, h6 {
     display: table-cell;
     width: 50%;
     vertical-align: middle;
-    padding: 3%;
+    padding: 4%;
+    text-align: right;
 }
 
 .timeline-time {
     margin-top: 20px;
     display: block;
+    font-weight: 500;
 }
 
 .timeline-description {
     display: table-cell;
     width: 50%;
     vertical-align: middle;
-    padding: 3%;
+    padding: 4%;
     /* border-left: solid #222831ab 1px; */
+    text-align: left;
 }
 
 .projects {
-    margin: 9% 20%;
+    margin: 30vh 20%;
 }
 
 .project-entry {
-    margin: 7% 9%;
+    margin: 10% 9%;
 }
 
 /* .project-title {
