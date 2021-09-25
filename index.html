@@ -36,7 +36,31 @@
 <body>
     <main>
 
-        <section class="intro">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#intro">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#timeline">Timeline</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <section id="intro">
             <h1 class="name">
                 Dominik
                 <br>
@@ -47,30 +71,32 @@
             </p>
         </section>
 
-        <section class="timeline">
-            <article class="timeline-entry">
-                <div class="timeline-title">
-                    <h3><a href="https://www.polsl.pl/">Silesian University of Technology</a></h3>
-                    <h5><span class="timeline-time">2019 – Present</span></h5>
-                </div>
-                <div class="timeline-description">
-                    <p>Computer Science</p>
-                    <p>Faculty of Automatic Control, Electronics and Computer Science</p>
-                </div>
-            </article>
-            <article class="timeline-entry">
-                <div class="timeline-title">
-                    <h3><a href="https://sum.edu.pl/">Medical University of Silesia</a></h3>
-                    <h5><span class="timeline-time">2016 – 2019</span></h5>
-                </div>
-                <div class="timeline-description">
-                    <p>MD Program</p>
-                    <p>Faculty of Medical Sciences in Katowice</p>
-                </div>
-            </article>
+        <section id="timeline">
+            <div class="timeline-background">
+                <article class="timeline-entry">
+                    <div class="timeline-title">
+                        <h3><a href="https://www.polsl.pl/">Silesian University of Technology</a></h3>
+                        <h5><span class="timeline-time">2019 – Present</span></h5>
+                    </div>
+                    <div class="timeline-description">
+                        <p>Computer Science</p>
+                        <p>Faculty of Automatic Control, Electronics and Computer Science</p>
+                    </div>
+                </article>
+                <article class="timeline-entry">
+                    <div class="timeline-title">
+                        <h3><a href="https://sum.edu.pl/">Medical University of Silesia</a></h3>
+                        <h5><span class="timeline-time">2016 – 2019</span></h5>
+                    </div>
+                    <div class="timeline-description">
+                        <p>MD Program</p>
+                        <p>Faculty of Medical Sciences in Katowice</p>
+                    </div>
+                </article>
+            </div>
         </section>
 
-        <section class="projects">
+        <section id="projects">
             <article class="project-entry-left">
                 <a href="https://github.com/Dearmann/AngryBlocks">
                     <img class="project-img"
@@ -106,7 +132,7 @@
             </article>
         </section>
 
-        <footer class="contact">
+        <footer id="contact">
             <p class="email"><a href="mailto:duszok0@gmail.com">duszok0@gmail.com</a></p>
             <a href="https://github.com/Dearmann"><img class="img-link" src="images/github.png" alt="GitHub"></a>
             <a href="https://www.linkedin.com/in/dominik-uszok-4a3717179/"><img class="img-link"

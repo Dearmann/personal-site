@@ -25,9 +25,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /***************CLASS/ID SELECTORS***************/
-.intro {
+.nav-item {
+    margin: 5px;
+}
+
+#intro {
     /* margin: 14% auto 17%; */
-    margin: 30vh auto 35vh;
+    padding: 30vh 0 15vh;
 }
 
 .name {
@@ -49,10 +53,13 @@ h1, h2, h3, h4, h5, h6 {
     width: 30%;
 }
 
-.timeline {
+#timeline {
+    padding: 20vh 23% 15vh;
+}
+
+.timeline-background {
     background-color: #393E46;
     border-radius: 25%;
-    margin: 30vh 23%;
 }
 
 .timeline-entry {
@@ -89,8 +96,10 @@ h1, h2, h3, h4, h5, h6 {
     text-align: left;
 }
 
-.projects {
-    margin: 30vh 20%;
+#projects {
+    margin: 5vh 0 0;
+    padding: 10vh 20% 15vh;
+    /* margin: 30vh 20%; */
 }
 
 .project-entry-left {
@@ -133,7 +142,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-left: 20px;
 }
 
-.contact {
+#contact {
     background-color: #393E46;
     border-radius: 25%;
     display: inline-block;
